@@ -6,6 +6,9 @@ header {
   top: 5px;
   left: 0;
 }
+#main {
+  height: 600px;
+}
 /* 슬라이드 */
 .slides1 {
   background-image: url("../images/mobile_01.png");
@@ -77,4 +80,5 @@ header {
   justify-content: center;
 }
 }
+
 
