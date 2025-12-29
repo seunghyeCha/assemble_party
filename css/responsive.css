@@ -51,6 +51,7 @@ header {
 }
 h2 {
   margin-bottom: 10px;
+  font-size: 24px;
 }
 .creator_track {
   gap: 20px;
@@ -76,6 +77,9 @@ h2 {
   width: 90%;
   margin:0 auto 80px;
 }
+.foo_mail > h2 {
+  font-size: 24px;
+}
 .connect {
   width: 100%;
   display: block;
@@ -90,6 +94,7 @@ h2 {
   justify-content: center;
 }
 }
+
 
 
 
