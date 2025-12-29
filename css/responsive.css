@@ -7,7 +7,7 @@ header {
   left: 0;
 }
 #main {
-  height: 680px;
+  height: 600px;
 }
 /* 슬라이드 */
 .slides1 {
@@ -38,6 +38,7 @@ header {
   width: 95%;
 }
 #main_button {
+  top: 550px;
   right: 6%
 }
 /* 크리에이터 */
@@ -89,6 +90,7 @@ h2 {
   justify-content: center;
 }
 }
+
 
 
 
