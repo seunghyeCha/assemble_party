@@ -140,7 +140,7 @@ footer {
     padding-bottom: 120px;
 }
 #foo_content {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 350px 0 80px;
     transform: translateY(-160px);
@@ -170,3 +170,4 @@ footer {
     justify-content: center;
     text-align: center;
 }
+
