@@ -32,6 +32,7 @@ header {
   background-image: url("../images/mobile_07.png");
 }
 #main_text {
+  top: 380px;
   left: 4%;
 }
 #main_text > img {
@@ -39,7 +40,7 @@ header {
 }
 #main_button {
   top: 550px;
-  right: 6%
+  right: 5%
 }
 /* 크리에이터 */
 .content {
@@ -47,7 +48,7 @@ header {
 }
 #creators_view {
   width: 100%;
-  margin: 20px auto 100px;
+  margin: 20px auto 40px;
 }
 h2 {
   margin-bottom: 10px;
@@ -66,7 +67,7 @@ h2 {
 /* 푸터 변경 */
 #foo_content {
   transform: none;
-  padding: 120px 0 60px;
+  padding: 80px 0 60px;
 }
 .flex_foo {
   flex-direction: column;
@@ -94,6 +95,7 @@ h2 {
   justify-content: center;
 }
 }
+
 
 
 
