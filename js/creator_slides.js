@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const track = document.getElementById("creators");
+    const track = document.querySelector(".creator_track");
     const cards = document.querySelectorAll(".creator");
 
+    if (!track || cards.length === 0) return;
+    
     const gap = 55;
     const cardWidth = cards[0].offsetWidth + gap;
 
@@ -17,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         track.style.transition = "transform 0.6s ease";
         track.style.transform = `translateX(-${index * cardWidth}px)`;
 
-        // 복제 슬라이드 도착 시
+        // 마지막 도달하고 다시 첨으로 돌리기
         if (index === cards.length) {
             setTimeout(() => {
                 track.style.transition = "none";
@@ -28,4 +30,5 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     setInterval(moveSlide, 10000);
+
 });
