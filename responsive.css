@@ -1,0 +1,82 @@
+@media (max-width:724px) {
+body {
+  font-size: 14px;
+}
+header {
+  top: 5px;
+  left: 0;
+}
+#main {
+  height: 850px;
+}
+/* 슬라이드 */
+.slides1 {
+  background-image: url("../images/mobile_01.png");
+}
+.slides2 {
+  background-image: url("../images/mobile_02.png");
+}
+.slides3 {
+  background-image: url("../images/mobile_03.png");
+}
+.slides4 {
+  background-image: url("../images/mobile_04.png");
+}
+.slides5 {
+  background-image: url("../images/mobile_05.png");
+}
+.slides6 {
+  background-image: url("../images/mobile_06.png");
+}
+.slides7 {
+  background-image: url("../images/mobile_07.png");
+}
+#main_text {
+  left: 4%;
+}
+#main_text > img {
+  width: 95%;
+}
+/* 크리에이터 */
+#creators_view {
+  width: 100%;
+  margin: 60px auto 100px;
+}
+.creator_track {
+  gap: 20px;
+}
+.creator {
+  flex: 0 0 70vw;
+}
+/* 비디오 크기 */
+.video_wrap {
+  width: 90%;
+}
+/* 푸터 변경 */
+#foo_content {
+  transform: none;
+  padding: 120px 0 60px;
+}
+.flex_foo {
+  flex-direction: column;
+  gap: 24px;
+  margin: 40px 0;
+}
+.foo_mail {
+  width: 90%;
+  margin:0 auto 80px;
+}
+.connect {
+  width: 100%;
+  display: block;
+}
+.connect > li {
+  margin: 10px auto;
+}
+.sponsored {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+}
