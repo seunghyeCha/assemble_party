@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    setInterval(moveSlide, 10000);
+    setInterval(moveSlide, 5000);
 
 });
+
