@@ -170,4 +170,8 @@ footer {
     justify-content: center;
     text-align: center;
 }
+.sponsored > li > img {
+    display: block;
+    max-width: 100px;
+}
 
